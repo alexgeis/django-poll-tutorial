@@ -129,8 +129,10 @@ class QuestionDetailViewTests(TestCase):
 # ideas for future tests
 
 # get_queryset for ResultsView
-# questions with no choices cannot be displayed
+
+# questions with no choices cannot be displayed (existing tests will need to be updated)
 # - tests would create questions with no choices and test if published (they should not be)
 # - tests would create questions with choices and test if published (they should be)
+
 
 # logged-in admin users should be allowed to see unpublished questions, but not ordinary visitors
